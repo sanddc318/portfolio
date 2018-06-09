@@ -16,6 +16,9 @@ export default class ContactForm extends React.Component {
 
   async handleSubmit(e) {
     e.preventDefault()
+    e.target.reset()
+    this.setState(() => ({ name: '', email: '', message: '' }))
+
     const { name, email, message } = this.state
     const form = await axios.post('/api/form', {
       name,
