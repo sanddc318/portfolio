@@ -6,9 +6,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>
-          <SplashPage />
-        </h1>
+        <SplashPage />
       </div>
     )
   }

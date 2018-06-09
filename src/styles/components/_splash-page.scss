@@ -1,0 +1,26 @@
+.outer-box {
+  background: $main-color;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: $xl-size;
+}
+
+.inner-box {
+  background: $off-black;
+  height: 100%;
+  position: relative;
+}
+
+.inner-box__intro {
+  font-size: 5.4rem;
+  left: 8rem;
+  margin: 0;
+  max-width: 50%;
+  position: relative;
+  text-transform: uppercase;
+  top: 8rem;
+}
+
+.inner-box__intro--about {
+  margin: 8rem 0;
+}

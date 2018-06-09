@@ -1,6 +1,6 @@
-@import './base/_settings.sass';
-@import './base/_base.sass';
-.emphasize {
-  /* DELETE */
-  color: skyblue
-}
+@import './base/_settings.scss';
+@import './base/_base.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+@import './components/_splash-page.scss';
