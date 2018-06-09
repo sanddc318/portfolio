@@ -1,17 +1,13 @@
-.about__photo {
+.about-photo {
   display: flex;
   justify-content: center;
   margin-bottom: $xxl-size;
 }
 
-.about__photo > img {
+.about-photo > img {
   border: $s-size solid $off-black;
   border-radius: 50%;
   height: 30rem;
-}
-
-.about__intro {
-  margin-bottom: $xl-size;
 }
 
 .about__content {

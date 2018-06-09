@@ -4,7 +4,6 @@ import SplashPage from './SplashPage'
 import About from './About'
 import Projects from './Projects'
 import Skills from './Skills'
-import Education from './Education'
 import Connect from './Connect'
 
 export default class App extends React.Component {
@@ -15,7 +14,6 @@ export default class App extends React.Component {
         <About />
         <Projects />
         <Skills />
-        <Education />
         <Connect />
       </div>
     )
