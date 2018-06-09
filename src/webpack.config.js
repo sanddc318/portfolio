@@ -2,10 +2,13 @@ var path = require('path')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: './src/app.js',
+  entry: ['../src/app.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
+  },
+  devServer: {
+    proxy: { '/api/**': { target: 'http://localhost:3001', secure: false } } // <-- This did the trick!
   },
   module: {
     rules: [
@@ -26,7 +29,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'public/index.html'
+      template: '../public/index.html'
     })
   ],
   mode: 'development'
