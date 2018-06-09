@@ -8,7 +8,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    proxy: { '/api/**': { target: 'http://localhost:3001', secure: false } } // <-- This did the trick!
+    proxy: { '/api/**': { target: 'http://localhost:3001', secure: false } }
   },
   module: {
     rules: [
