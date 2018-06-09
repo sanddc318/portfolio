@@ -1,15 +1,14 @@
 import React from 'react'
 
-import reactIcon from '../../public/images/react-icon.svg'
+import SplashPage from './SplashPage'
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
         <h1>
-          <span className="emphasize">Hello</span> React
+          <SplashPage />
         </h1>
-        <img src={reactIcon} style={{ height: '200px' }} />
       </div>
     )
   }
