@@ -1,10 +1,3 @@
-.outer-box {
-  background: $main-color;
-  box-sizing: border-box;
-  height: 100vh;
-  padding: $xl-size;
-}
-
 .inner-box__intro {
   font-size: 5.4rem;
   margin: 0;
@@ -14,4 +7,10 @@
 
 .inner-box__intro--about {
   padding: 8rem 0 0 0;
+}
+
+.inner-box__secret {
+  bottom: $xl-size;
+  font-style: italic;
+  position: absolute;
 }
