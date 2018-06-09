@@ -1,10 +1,18 @@
 .container {
   background: $off-black;
   box-sizing: border-box;
+  color: $main-color;
   height: 100%;
   padding: 8rem;
 }
 
 .container--inverted {
   background: $main-color;
+  color: $off-black;
+}
+
+.section-header {
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 5.4rem;
+  text-transform: uppercase;
 }
