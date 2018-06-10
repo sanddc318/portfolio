@@ -3,7 +3,7 @@ import React from 'react'
 import ContactForm from './ContactForm'
 
 const Connect = () => (
-  <div className="outer-box outer-box--inverted">
+  <div className="outer-box outer-box--inverted" id="contact">
     <div className="container container--inverted">
       <h1 className="component-header">&nbsp; Connect &nbsp;</h1>
 

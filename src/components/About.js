@@ -3,7 +3,7 @@ import React from 'react'
 import myPhoto from '../../public/images/me_grayscale.jpg'
 
 const About = () => (
-  <div className="outer-box outer-box--inverted">
+  <div className="outer-box outer-box--inverted" id="about">
     <div className="container container--inverted">
       <h1 className="component-header" style={{ textTransform: 'lowercase' }}>
         &nbsp; $ whoami &nbsp;

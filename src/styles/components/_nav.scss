@@ -1,0 +1,17 @@
+.nav-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  position: fixed;
+  right: $xxl-size;
+  top: $xxl-size;
+  z-index: 1;
+}
+
+.nav-modal {
+  height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Skills = () => (
-  <div className="outer-box outer-box--inverted">
+  <div className="outer-box outer-box--inverted" id="skills">
     <div className="container container--inverted">
       <h1 className="component-header">&nbsp; Skills &nbsp;</h1>
 

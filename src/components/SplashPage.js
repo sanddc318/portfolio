@@ -1,7 +1,7 @@
 import React from 'react'
 
 const SplashPage = () => (
-  <div className="outer-box">
+  <div className="outer-box" id="home">
     <div className="container">
       <h1 className="splash__intro">Hey. The name's Dontavious.</h1>
       <h1 className="splash__intro splash__intro--about">

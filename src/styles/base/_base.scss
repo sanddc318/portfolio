@@ -9,6 +9,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 button {
   cursor: pointer;
 }
