@@ -2,10 +2,12 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const nodemailer = require('nodemailer')
+const path = require('path')
 const app = express()
 const keys = require('./keys')
 
 app.use(cors())
+app.use(express.static(`${__dirname}/public/index.html`))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
@@ -46,6 +48,10 @@ app.post('/api/form', (req, res) => {
       console.log(`Message URL: %s`, nodemailer.getTestMessageUrl(info))
     })
   })
+})
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/index.html'))
 })
 
 const PORT = process.env.PORT || 3001
