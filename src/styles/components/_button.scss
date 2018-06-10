@@ -6,6 +6,17 @@
   padding: $s-size;
 }
 
+.button:hover {
+  color: $main-color;
+  background: $off-black;
+}
+
+.button:active {
+  -webkit-box-shadow: inset 0px 0px 15px #000000;
+  -moz-box-shadow: inset 0px 0px 15px #000000;
+  box-shadow: inset 0px 0px 15px #000000;
+}
+
 .button--big {
   padding: $m-size;
 }

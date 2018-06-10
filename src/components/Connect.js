@@ -12,13 +12,19 @@ const Connect = () => (
       <h2>Find me on the web</h2>
       <ul className="component__list">
         <li className="component__list--item">
-          <a href="https://github.com/sanddc318">GitHub</a>
+          <a href="https://github.com/sanddc318" target="_blank">
+            GitHub
+          </a>
         </li>
         <li className="component__list--item">
-          <a href="https://linkedin.com/in/dontavioussanders">LinkedIn</a>
+          <a href="https://linkedin.com/in/dontavioussanders" target="_blank">
+            LinkedIn
+          </a>
         </li>
         <li className="component__list--item">
-          <a href="#">Xbox</a>
+          <a href="#" target="_blank">
+            Xbox
+          </a>
         </li>
       </ul>
     </div>
