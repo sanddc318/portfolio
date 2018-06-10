@@ -14,7 +14,7 @@ export default class Nav extends React.Component {
     return (
       <div>
         <button className="nav-button" onClick={this.handleToggleModal}>
-          Menu +
+          Menu
         </button>
         {this.state.modalOpen && (
           <NavModal

@@ -1,3 +1,26 @@
+.outer-box--modal {
+  background: $main-color;
+  box-sizing: border-box;
+  height: 100vh;
+  left: 0;
+  padding: $xl-size;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.container--modal {
+  background: $off-black;
+  box-sizing: border-box;
+  color: $main-color;
+  flex-direction: column;
+  font-size: $l-size;
+  display: flex;
+  height: 100%;
+  padding: 8rem;
+}
+
 .nav-button {
   background: transparent;
   border: none;
@@ -6,12 +29,11 @@
   position: fixed;
   right: $xxl-size;
   top: $xxl-size;
-  z-index: 1;
+  z-index: 2;
 }
 
-.nav-modal {
-  height: 100vh;
-  position: fixed;
-  overflow: hidden;
-  z-index: 1;
+.nav-links {
+  color: $main-color;
+  text-decoration: none;
+  margin: $s-size 0;
 }
