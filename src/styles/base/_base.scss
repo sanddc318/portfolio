@@ -18,6 +18,10 @@ button:disabled {
 }
 
 button:focus,
-button:active {
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
   outline: none;
 }

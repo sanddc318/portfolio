@@ -8,13 +8,11 @@ export default class ContactForm extends React.Component {
     message: ''
   }
 
-  handleSubmit = this.handleSubmit.bind(this)
-
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value })
   }
 
-  async handleSubmit(e) {
+  handleSubmit = async e => {
     e.preventDefault()
     e.target.reset()
     this.setState(() => ({ name: '', email: '', message: '' }))
@@ -30,35 +28,44 @@ export default class ContactForm extends React.Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
-          <label htmlFor="name">
+        <h2>Drop me a line</h2>
+
+        <form onSubmit={this.handleSubmit} className="contact-form">
+          <label htmlFor="name" className="contact-input">
+            Name
             <input
               type="text"
               name="name"
-              placeholder="Name"
               onChange={this.handleChange}
+              autoComplete="off"
+              required
             />
           </label>
 
-          <label htmlFor="email">
+          <label htmlFor="email" className="contact-input">
+            Email
             <input
               type="email"
               name="email"
-              placeholder="Email"
               onChange={this.handleChange}
+              autoComplete="off"
+              required
             />
           </label>
 
-          <label htmlFor="message">
-            <input
+          <label htmlFor="message" className="contact-input">
+            Message
+            <textarea
               type="textarea"
               name="message"
-              placeholder="Message"
               onChange={this.handleChange}
+              required
             />
           </label>
 
-          <button>Submit</button>
+          <button type="submit" className="button button--big">
+            Submit
+          </button>
         </form>
       </div>
     )

@@ -34,8 +34,8 @@ const About = () => (
       </p>
       <p className="about-content">
         When I'm not trying to master code, I'm instead trying to perfect my
-        fighting game craft. I am a self-proclaimed music buff and lover of bad
-        movies.
+        combos in fighting games. I am a self-proclaimed music buff and lover of
+        bad movies.
       </p>
       <p className="about-content">
         I strive to learn{' '}

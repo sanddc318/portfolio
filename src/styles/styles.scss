@@ -1,13 +1,20 @@
-@import './base/_settings.scss';
-@import './base/_base.scss';
-
+// Fonts
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700');
 
+// Universal
+@import './base/_settings.scss';
+@import './base/_base.scss';
+
+// Not specific to component
+@import './components/_button.scss';
 @import './components/_outer-box.scss';
-@import './components/_container.scss';
-@import './components/_splash-page.scss';
-@import './components/_about.scss';
-@import './components/_projects.scss';
 @import './components/_component.scss';
+@import './components/_container.scss';
+
+// Component-specific
+@import './components/_about.scss';
 @import './components/_connect.scss';
+@import './components/_contact.scss';
+@import './components/_projects.scss';
+@import './components/_splash-page.scss';
