@@ -17,10 +17,7 @@ export default class Nav extends React.Component {
           Menu
         </button>
         {this.state.modalOpen && (
-          <NavModal
-            handleToggleModal={this.handleToggleModal}
-            modalOpen={this.state.modalOpen}
-          />
+          <NavModal handleToggleModal={this.handleToggleModal} />
         )}
       </div>
     )
