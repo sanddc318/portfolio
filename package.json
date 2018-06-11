@@ -14,7 +14,7 @@
     "cors": "^2.8.4"
   },
   "scripts": {
-    "client": "npm run dev-server --prefix src",
+    "client": "npm run start:dev --prefix src",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server.js",
     "backend": "node server.js"
