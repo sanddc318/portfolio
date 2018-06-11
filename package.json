@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Building my portfolio for the umpteen time",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.5",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "cors": "^2.8.4"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "client": "npm run start --prefix client",
+    "server": "nodemon index.js",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanddc318/portfolio.git"
+  },
+  "keywords": [],
+  "author": "Dontavious Sanders <sanddc178@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanddc318/portfolio/issues"
+  },
+  "homepage": "https://github.com/sanddc318/portfolio#readme"
+}
