@@ -15,9 +15,9 @@
   },
   "scripts": {
     "client": "npm run dev-server --prefix src",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server.js",
-    "start": "node server.js"
+    "backend": "node server.js"
   },
   "repository": {
     "type": "git",
