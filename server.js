@@ -7,7 +7,7 @@ const app = express()
 const keys = require('./keys')
 
 app.use(cors())
-app.use(express.static(`${__dirname}/public/index.html`))
+app.use(express.static(`${__dirname}/src/dist/index.html`))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
@@ -51,7 +51,7 @@ app.post('/api/form', (req, res) => {
 })
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/public/index.html'))
+  res.sendFile(path.join(__dirname, '/src/dist/index.html'))
 })
 
 const PORT = process.env.PORT || 3001
