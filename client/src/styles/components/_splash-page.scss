@@ -14,3 +14,12 @@
   font-style: italic;
   position: absolute;
 }
+
+@media (max-width: $tablet) {
+  .splash__intro {
+    font-size: $l-size;
+  }
+
+  .splash__intro--about {
+  }
+}

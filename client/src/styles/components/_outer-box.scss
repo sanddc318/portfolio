@@ -2,6 +2,7 @@
   background: $main-color;
   box-sizing: border-box;
   height: 100vh;
+  overflow: hidden;
   padding: $xl-size;
   position: relative;
 }
@@ -9,4 +10,11 @@
 .outer-box--inverted {
   background: $off-black;
   height: auto;
+}
+
+@media (max-width: $tablet) {
+  .outer-box {
+    padding: $m-size;
+    // height: auto;
+  }
 }

@@ -48,12 +48,17 @@ textarea:active {
   background: #6bb9f0;
   box-sizing: border-box;
   height: 100vh;
+  overflow: hidden;
   padding: 4.8rem;
   position: relative; }
 
 .outer-box--inverted {
   background: #222222;
   height: auto; }
+
+@media (max-width: 700px) {
+  .outer-box {
+    padding: 1.6rem; } }
 
 .component-header {
   font-family: 'Zilla Slab Highlight', cursive;
@@ -91,6 +96,10 @@ textarea:active {
   background: #6bb9f0;
   color: #222222;
   padding: 8rem 20rem; }
+
+@media (max-width: 700px) {
+  .container {
+    padding: 3.2rem; } }
 
 .about-photo {
   display: flex;
@@ -208,3 +217,7 @@ textarea:active {
   bottom: 4.8rem;
   font-style: italic;
   position: absolute; }
+
+@media (max-width: 700px) {
+  .splash__intro {
+    font-size: 3.2rem; } }

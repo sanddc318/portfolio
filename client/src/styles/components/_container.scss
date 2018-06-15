@@ -11,3 +11,9 @@
   color: $off-black;
   padding: 8rem 20rem;
 }
+
+@media (max-width: $tablet) {
+  .container {
+    padding: $l-size;
+  }
+}
