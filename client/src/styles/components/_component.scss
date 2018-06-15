@@ -29,3 +29,13 @@
   color: $main-color;
   padding: $s-size;
 }
+
+@media (max-width: $tablet) {
+  .component-header {
+    font-size: $l-size;
+  }
+
+  .component-subheader {
+    font-size: $m-size;
+  }
+}

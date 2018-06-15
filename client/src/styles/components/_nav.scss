@@ -37,3 +37,19 @@
   text-decoration: none;
   margin: $s-size 0;
 }
+
+@media (max-width: $tablet) {
+  .nav-button {
+    right: $l-size;
+    top: $l-size;
+  }
+
+  .outer-box--modal {
+    padding: $m-size;
+  }
+
+  .container--modal {
+    padding: $l-size;
+    font-size: 2rem;
+  }
+}

@@ -85,6 +85,12 @@ textarea:active {
   color: #6bb9f0;
   padding: 0.8rem; }
 
+@media (max-width: 700px) {
+  .component-header {
+    font-size: 3.2rem; }
+  .component-subheader {
+    font-size: 1.6rem; } }
+
 .container {
   background: #222222;
   box-sizing: border-box;
@@ -116,6 +122,10 @@ textarea:active {
   font-size: 1.8rem;
   font-weight: 100;
   line-height: 1.5; }
+
+@media (max-width: 700px) {
+  .about-photo > img {
+    height: 25rem; } }
 
 .contact-form {
   display: flex;
@@ -177,6 +187,16 @@ textarea:active {
   text-decoration: none;
   margin: 0.8rem 0; }
 
+@media (max-width: 700px) {
+  .nav-button {
+    right: 3.2rem;
+    top: 3.2rem; }
+  .outer-box--modal {
+    padding: 1.6rem; }
+  .container--modal {
+    padding: 3.2rem;
+    font-size: 2rem; } }
+
 .projects-grid {
   display: flex;
   justify-content: space-around;
@@ -220,4 +240,6 @@ textarea:active {
 
 @media (max-width: 700px) {
   .splash__intro {
-    font-size: 3.2rem; } }
+    font-size: 3.2rem; }
+  .splash__secret {
+    font-size: 1.4rem; } }
