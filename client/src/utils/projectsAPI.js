@@ -1,5 +1,13 @@
 export default [
   {
+    name: 'Clear View Escapes',
+    image: 'travel_agency.png',
+    url: 'https://sanddc318.github.io/Travel-Agency/',
+    github: 'https://github.com/sanddc318/Travel-Agency/',
+    description:
+      'The goal here was to make a responsive site from start to finish. This is supposed to be as landing page of sorts for a fictional travel agency. The tools used in this project were mainly PostCSS and jQuery.'
+  },
+  {
     name: 'feedTorrent',
     image: 'feedTorrent_thumbnail.png',
     url: 'https://feedtorrent.herokuapp.com/index.php',

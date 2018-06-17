@@ -13,6 +13,15 @@ const Connect = () => (
       <ul className="component__list">
         <li className="component__list--item">
           <a
+            href="https://codepen.io/sanddc178/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Codepen
+          </a>
+        </li>
+        <li className="component__list--item">
+          <a
             href="https://github.com/sanddc318"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,11 +36,6 @@ const Connect = () => (
             rel="noopener noreferrer"
           >
             LinkedIn
-          </a>
-        </li>
-        <li className="component__list--item">
-          <a href="https://xbox.com" target="_blank" rel="noopener noreferrer">
-            Xbox
           </a>
         </li>
       </ul>
