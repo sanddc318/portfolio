@@ -26,7 +26,7 @@ const About = () => (
         history.
       </p>
       <p className="about-content">
-        Since then, I've dabbled with many a language -- from a some Java to PHP
+        Since then, I've dabbled with many a language -- from a little Java to PHP
         to finally settling on JavaScript. I like the fact that an entire
         project can be done in one language. I particularly like React and can
         appreciate the fact that it's really just JavaScript. My dream job would
@@ -40,7 +40,7 @@ const About = () => (
       <p className="about-content">
         I strive to learn{' '}
         <span style={{ textDecoration: 'underline' }}>something</span> everyday
-        and hopefully you learned a bit about me reading this.
+        and hopefully you learned a bit about me after reading this.
       </p>
     </div>
   </div>

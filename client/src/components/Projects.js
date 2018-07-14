@@ -12,6 +12,7 @@ const Projects = () => (
           const backgroundStyles = {
             backgroundSize: 'cover',
             border: '5px solid #333',
+	    cursor: 'pointer',
             filter: 'grayscale()',
             height: '160px'
           }
