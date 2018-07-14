@@ -11,11 +11,16 @@
 .project-thumbnail {
   height: 100px;
   margin-bottom: $m-size;
-}
 
-.project-thumbnail > img {
-  height: 100%;
-  width: 100%;
+  a {
+    height: 100%;
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
 }
 
 .project-link {
