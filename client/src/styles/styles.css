@@ -208,10 +208,12 @@ textarea:active {
 .project-thumbnail {
   height: 100px;
   margin-bottom: 1.6rem; }
-
-.project-thumbnail > img {
-  height: 100%;
-  width: 100%; }
+  .project-thumbnail a {
+    height: 100%;
+    width: 100%; }
+    .project-thumbnail a img {
+      height: 100%;
+      width: 100%; }
 
 .project-link {
   color: #222222;

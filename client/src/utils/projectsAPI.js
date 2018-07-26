@@ -2,7 +2,7 @@ export default [
   {
     name: 'React - Social Media App',
     image: 'react_social.png',
-    url: 'https://sanddc318.github.io/social-react/',
+    url: 'https://shielded-sierra-84766.herokuapp.com/',
     github: 'https://github.com/sanddc318/social-react/',
     description:
       'Full stack application that utilizes React, Node (Express) and MongoDB (Mongoose). Still a work in progress but the MVP is done. Has most of the standard social-media-type features. Login (email: jbuckets@hotmail.com / password: b4ckets)'

@@ -22,10 +22,12 @@ const Projects = () => (
               <h2>{project.name}</h2>
 
               <div style={backgroundStyles} className="project-thumbnail">
-                <img
-                  src={require(`../public/images/${project.image}`)}
-                  alt="Project thumbnail"
-                />
+                <a href={project.url} target="_blank">
+                  <img
+                    src={require(`../public/images/${project.image}`)}
+                    alt="Project thumbnail"
+                  />
+                </a>
               </div>
 
               <a href={project.url} className="project-link" target="_blank">
