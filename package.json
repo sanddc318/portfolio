@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Building my portfolio for the umpteen time",
+  "description": "Building my portfolio for the umpteen time.",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",

@@ -1,2 +1,3 @@
 # portfolio
-Building my portfolio for the umpteen time
+
+Building my portfolio for the umpteen time.
